@@ -3,13 +3,21 @@
 comandos para ejecutar:
 
 py -m venv venv
+
 .\venv\Scripts\activate	
+
 pip install django
+
 pip install djangorestframework
+
 pip install drf-yasg
+
 pip freeze > requirements.txt
+
 django-admin startproject natureapp
+
 cd natureapp
+
 git init
 
 python manage.py makemigrations     ///migraciones
